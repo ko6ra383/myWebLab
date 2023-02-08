@@ -1,0 +1,58 @@
+#mainBlock {
+    width: 420px;
+    background: #a9a9a9;
+}
+.header {
+    background: #295b5b;
+    padding: 20px 15px;
+    height: 80px;
+}
+.header h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.header .inputLine {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 10px 15px;
+}
+.header .inputLine *{
+    height: 30px;
+    font-size: 14px;
+    border: none;
+}
+.header .inputLine button {
+    color: gray;
+    background: lightgray;
+    width: 100px;
+    height: 32px;
+
+}
+.header .inputLine input{
+    color: gray;
+    width: 100%;
+    outline: none;
+}
+.list {
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+}
+.list li{
+    font-size: 14px;
+    padding: 3px;
+    list-style-type: none;
+    user-select: none;
+}
+.list li.checked {
+    background: #6c6c6c;
+    text-decoration: line-through;
+}
+.list li:hover {
+    background: #888888;
+}
+
+

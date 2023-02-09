@@ -46,13 +46,26 @@
     padding: 3px;
     list-style-type: none;
     user-select: none;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.closeBtn {
+    padding: 0 8px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+.closeBtn:hover {
+    background: #be5a5a;
 }
 .list li.checked {
-    background: #6c6c6c;
+    background: #606060;
     text-decoration: line-through;
 }
 .list li:hover {
-    background: #888888;
+    background: #949191;
 }
 
 

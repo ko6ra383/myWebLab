@@ -28,7 +28,7 @@
     background: lightgray;
     width: 100px;
     height: 32px;
-
+    outline: none;
 }
 .header .inputLine input{
     color: gray;
@@ -39,7 +39,7 @@
     display: block;
     height: 100%;
     margin: 0;
-    padding: 0 10px;
+    padding: 0;
 }
 .list li{
     font-size: 14px;
